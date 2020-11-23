@@ -145,6 +145,6 @@ StringBuffer sb=new StringBuffer();
 ![图片文件](http://note.youdao.com/yws/public/resource/859da5035b4f5208532d47e221dd4dd6/xmlnote/WEBRESOURCE8b8e3c2a54bbbb4ba6e696b9d5d55a70/44)
 ##### 打印输出异常信息
 
-![图片文件](http://note.youdao.com/yws/public/resource/253bd04b7be5f80431825916d9afbaa8/xmlnote/WEBRESOURCEd5e69a7e349e32401b9ef414ab320a3c/31)
+![图片文件](http://note.youdao.com/yws/public/resource/18fc0d14ac63f42e810afc6657b99d74/xmlnote/WEBRESOURCEbc708e1fb490b7ae4718aed18ece756c/41)
 ## 六、实验感想
 此次实验通过利用以前实现过的学生类，交互式输入了学生的信息，并保存在了文件中，其次，我使用了InputStreamReader方法读取了文本源文件，并通过添加UTF-8解决中文乱码问题，将读取到的文本封装成stringbuffer对象，使用stringbuffer类的insert方法，循环下标并添加了正确的标点符号，最后把已经整理好格式的文本内容写入了存放学生信息的文件中，基本完成本次实验的内容。我在实验中遇到的问题，一，stringbuffer类的长度随时变化更新，使用for循环判断下标时长度随时会变，所以我添加了整型变量j来保证标点符号的添加位置正确无误；二，在设计书写判断某个汉字在文本中出现次数的代码时，无法获取到输入的需要判断的汉字或词语，后来发现是因为String变量放在了主方法里，修改变量位置后，代码成功运行并输出。
